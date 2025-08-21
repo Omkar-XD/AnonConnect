@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🗨️ Real-time Anonymous Chat Application  
 
 A real-time anonymous chat application built with **React (Vite)**, **Tailwind CSS**, and **Firebase Firestore**.  
@@ -95,3 +96,7 @@ Open a Pull Request.
 For any inquiries, feel free to reach out:
 📧 Email: talaganarajesh@gmail.com
 🐦 Twitter: https://x.com/Rajeshtalagana
+=======
+# AnonConnect
+AnonConnect is an anonymous chat platform with themed rooms like Fun Chat, Study, Coding, Gaming,Startups and many more . Built with React + Firebase, it offers real-time chats, a clean mobile-friendly UI, and an AI-powered assistant for witty, helpful replies.
+>>>>>>> 5d384a0f72a6125564dc89cf198251256ca077e2
