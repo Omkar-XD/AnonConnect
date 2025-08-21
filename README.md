@@ -1,102 +1,55 @@
-<<<<<<< HEAD
-# 🗨️ Real-time Anonymous Chat Application  
+# 🗨️ AnonConnect  
 
-A real-time anonymous chat application built with **React (Vite)**, **Tailwind CSS**, and **Firebase Firestore**.  
-
-## 🚀 Features  
-
-- **Live Chat:** Messages appear instantly without refreshing.  
-- **Anonymous or Named Messaging:** Users can chat as "Anonymous" or use a temporary nickname.  
-- **Real-time Updates:** Messages update in real-time using Firebase Firestore’s `onSnapshot()`.  
-- **Message Styling:** Each message has a random avatar color and timestamp.  
-- **Spam Protection:** Users can send one message per 10 seconds to prevent spam.  
-- **Profanity Filter:** Automatically removes/blocks inappropriate words in messages.  
-- **Auto-Scroll:** The chat scrolls down automatically when new messages arrive.  
-- **Responsive Design:** Fully mobile-friendly using Tailwind CSS.  
-- **Emoji Support:** Users can add emojis via an emoji picker.  
-- **Dark Mode:** Toggle between light and dark themes.  
+AnonConnect is a modern anonymous chat platform where users can join themed rooms like **Fun Chat, Study, Coding, Gaming, Startups & Business**, and more.  
+Built with **React (Vite) + Tailwind CSS + Firebase**, it offers **real-time conversations, a clean mobile-friendly UI, and an AI-powered assistant** for witty, helpful replies.  
 
 ---
 
-## 🛠️ Setup Instructions  
+## 🚀 Features  
+- Real-time live chat  
+- Anonymous or nickname-based messaging  
+- Join themed rooms  
+- Spam protection & profanity filter  
+- Emoji support & timestamps  
+- Dark mode  
+- Responsive, mobile-friendly design  
+- AI-powered assistant with humor & sarcasm  
 
-### 1️⃣ Clone the Repository  
-```sh
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
-```
+---
 
-2️⃣ Install Dependencies
-npm install
-3️⃣ Set Up Firebase
-Create a Firebase project at Firebase Console.
+## 🛠️ Getting Started  
 
-Enable Firestore Database.
+1. Clone the repository:  
+   ```sh
+   git clone https://github.com/Omkar-XD/AnonConnect.git
+   cd AnonConnect
+Install dependencies:
 
-Obtain your Firebase configuration and replace it in firebase.js.
-
-Example firebase.js file:
-
-javascript
+sh
 Copy
 Edit
-import { initializeApp } from "firebase/app";
-import { getFirestore } from "firebase/firestore";
+npm install
+Run locally:
 
-const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
-};
-
-const app = initializeApp(firebaseConfig);
-const db = getFirestore(app);
-
-export { db };
-4️⃣ Run the Development Server
 sh
 Copy
 Edit
 npm run dev
-By default, your app will be available at http://localhost:5173/.
+App runs at → http://localhost:5173
 
 📸 Screenshots
-(Include screenshots of your app here to showcase the UI.)
+(Add screenshots of your app UI here)
 
 🤝 Contributing
-Contributions are welcome! To contribute:
+Fork the repository
 
-Fork the repository.
+Create a new branch
 
-Create a new branch:
+Commit and push changes
 
-sh
-Copy
-Edit
-git checkout -b feature-branch
-Commit your changes:
-
-sh
-Copy
-Edit
-git commit -m "Added new feature"
-Push to the branch:
-
-sh
-Copy
-Edit
-git push origin feature-branch
-Open a Pull Request.
-
+Open a Pull Request
 
 📬 Contact
-For any inquiries, feel free to reach out:
-📧 Email: talaganarajesh@gmail.com
-🐦 Twitter: https://x.com/Rajeshtalagana
-=======
-# AnonConnect
-AnonConnect is an anonymous chat platform with themed rooms like Fun Chat, Study, Coding, Gaming,Startups and many more . Built with React + Firebase, it offers real-time chats, a clean mobile-friendly UI, and an AI-powered assistant for witty, helpful replies.
->>>>>>> 5d384a0f72a6125564dc89cf198251256ca077e2
+📧 Email: omkarchavan21k@gmail.com
+📸 Instagram: @its.omkarr_
+💼 LinkedIn: Omkar Chavan

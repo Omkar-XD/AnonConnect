@@ -78,7 +78,7 @@ function ChatRooms() {
           {/* Right: GitHub Icon */}
           <div className="flex items-center gap-2">
             <a
-              href="https://github.com/talaganaRajesh/OpenRoom"
+              href="https://github.com/Omkar-XD/AnonConnect"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub repository"
@@ -97,6 +97,17 @@ function ChatRooms() {
                 />
               </svg>
             </a>
+            <a
+  href="https://www.linkedin.com/in/omkar-chavan-8b59a8334/"
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="LinkedIn profile"
+  className="p-2 rounded-md hover:bg-zinc-200 transition-colors text-zinc-700"
+>
+  <svg viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5" aria-hidden="true">
+    <path d="M20.447 20.452H16.9v-5.569c0-1.327-.025-3.037-1.85-3.037-1.853 0-2.137 1.445-2.137 2.939v5.667H9.367V9h3.381v1.561h.047c.472-.897 1.624-1.85 3.341-1.85 3.57 0 4.233 2.352 4.233 5.411v6.33zM5.337 7.433a1.953 1.953 0 1 1 0-3.906 1.953 1.953 0 0 1 0 3.906zM7.119 20.452H3.553V9h3.566v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.226.792 24 1.771 24h20.451C23.2 24 24 23.226 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/>
+  </svg>
+</a>
           </div>
         </div>
       </header>
@@ -181,19 +192,41 @@ function ChatRooms() {
           </div>
         </div>
 
-        {/* Footer */}
-        <div className="mt-16 pt-8 border-t border-gray-200 text-center">
-          <a
-            href="https://talaganarajesh.vercel.app/"
-            target="_blank"
-            className="text-sm text-gray-500"
-          >
-            © 2025 AnonConnect. Developed By Omkar Chavan
-          </a>
-        </div>
-      </div>
-    </div>
-  );
+{/* Footer */}
+<div className="mt-16 pt-8 border-t border-gray-200 text-center">
+  <p className="text-sm text-gray-500">
+    © 2025 AnonConnect. Developed by <span className="font-medium">Omkar Chavan</span>
+  </p>
+  <div className="flex justify-center space-x-4 mt-2">
+    <a
+      href="https://github.com/Omkar-XD"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-sm text-gray-500 hover:text-gray-700 transition-colors"
+    >
+      GitHub
+    </a>
+    <a
+      href="https://www.linkedin.com/in/omkar-chavan-8b59a8334/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-sm text-gray-500 hover:text-gray-700 transition-colors"
+    >
+      LinkedIn
+    </a>
+    <a
+      href="https://www.instagram.com/its.omkarr_/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-sm text-gray-500 hover:text-gray-700 transition-colors"
+    >
+      Instagram
+    </a>
+  </div>
+</div>
+</div>
+</div>
+);
 }
 
 export default ChatRooms;
