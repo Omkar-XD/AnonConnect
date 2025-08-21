@@ -37,8 +37,7 @@ Edit
 npm run dev
 App runs at → http://localhost:5173
 
-📸 Screenshots
-(Add screenshots of your app UI here)
+
 
 🤝 Contributing
 Fork the repository
